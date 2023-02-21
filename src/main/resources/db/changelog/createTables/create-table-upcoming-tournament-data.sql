@@ -7,8 +7,9 @@ create table IF NOT EXISTS upcoming_tournament_data
     primary key,
     tour_id bigint not null,
     total_players smallint not null,
-    reg_ends timestamp not null
-    --constraint foreign key (tour_id) references tournament (id)
+    reg_ends timestamp not null,
+    constraint FK_TOUR_ID
+    foreign key (tour_id) references tournament (id)
     )
     collate = utf8mb4_0900_ai_ci;
 

@@ -74,5 +74,7 @@
     <!-- =====> Регистрация на турнир <===== -->
     <include
             file="db/changelog/createTables/create-table-upcoming-tournament-data.xml"/>
+    <include
+            file="db/changelog/triggers/create-trigger-next-day.xml"/>
 
 </databaseChangeLog> 
