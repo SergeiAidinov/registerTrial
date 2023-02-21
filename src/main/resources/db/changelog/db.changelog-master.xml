@@ -78,5 +78,7 @@
             file="db/changelog/triggers/create-trigger-next-day.xml"/>
     <include
             file="db/changelog/createTables/create-table-registered_players.xml"/>
+    <include
+            file="db/changelog/triggers/create-trigger-reg_status.xml"/>
 
 </databaseChangeLog> 

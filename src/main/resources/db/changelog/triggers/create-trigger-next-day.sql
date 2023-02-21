@@ -1,8 +1,6 @@
 -- liquibase formatted sql
 -- changeset liquibase:c2ef62f8-f1f8-4dc7-a6f6-b75e8d2992b4 splitStatements:false
-
 -- delimiter $$
-
 
 CREATE TRIGGER  next_day
     BEFORE INSERT
