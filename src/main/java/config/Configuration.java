@@ -10,7 +10,6 @@ import org.springframework.context.annotation.PropertySource;
 
 @SpringBootConfiguration
 @PropertySource("classpath:application.properties")
-//@EnableAutoConfiguration
 public class Configuration {
 
     @Value("${spring.driver-class-name}")

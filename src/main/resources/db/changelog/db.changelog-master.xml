@@ -71,5 +71,8 @@
     <include
             file="db/changelog/modifyTable/modify-table-tournament.xml"/>
 
+    <!-- Регистрация на турнир -->
+    <include file="db/changelog/createTables/create-table-upcoming-tournament-data.xml"/>
+
 
 </databaseChangeLog> 
