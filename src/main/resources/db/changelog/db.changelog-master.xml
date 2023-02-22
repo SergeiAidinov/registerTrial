@@ -82,5 +82,7 @@
             file="db/changelog/triggers/create-trigger-reg_status.xml"/>
     <include
             file="db/changelog/procedures/create-procedure-update_status.xml"/>
+    <include
+            file="db/changelog/triggers/create-trigger-reg_expired.xml"/>
 
 </databaseChangeLog> 
