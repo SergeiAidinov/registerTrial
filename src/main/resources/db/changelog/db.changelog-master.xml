@@ -80,5 +80,7 @@
             file="db/changelog/createTables/create-table-registered_players.xml"/>
     <include
             file="db/changelog/triggers/create-trigger-reg_status.xml"/>
+    <include
+            file="db/changelog/procedures/create-procedure-update_status.xml"/>
 
 </databaseChangeLog> 
